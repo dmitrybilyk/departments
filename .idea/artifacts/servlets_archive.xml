@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="servlets archive">
+    <output-path>$PROJECT_DIR$/out/artifacts/servlets_archive</output-path>
+    <root id="archive" name="servlets archive.war">
+      <element id="artifact" artifact-name="servlets" />
+      <element id="javaee-facet-resources" facet="departments/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="departments" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="javax.servlet" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
