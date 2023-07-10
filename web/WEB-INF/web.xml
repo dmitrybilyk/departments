@@ -6,7 +6,7 @@
     <servlet>
         <servlet-name>MyServlet</servlet-name>
         <servlet-class>com.mykyta.web.MyServlet</servlet-class>
-        <load-on-startup>1</load-on-startup>
+<!--        <load-on-startup>1</load-on-startup>-->
     </servlet>
 
     <servlet-mapping>
